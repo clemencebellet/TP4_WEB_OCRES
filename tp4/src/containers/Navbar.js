@@ -1,5 +1,7 @@
 import React from 'react';
-import '.../index.css';
+import '../index.css'
+import './Navbar.css'
+
 
 
 export default class Nav extends React.Component {
@@ -8,8 +10,9 @@ export default class Nav extends React.Component {
 
         return (
             <div class='nav'>
-
-
+                <button onclick="changeusers()">
+                    Jeanne
+                </button>
             </div>
         )
 

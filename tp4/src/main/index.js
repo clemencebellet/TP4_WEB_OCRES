@@ -9,9 +9,10 @@ export default class App extends React.Component {
             users: [
 
             ],
-            selectedUsers: 'Jeanne'
+            ///selectedUsers: 'Jeanne'
         }
     }
     changeUser(selectedUsers)
+
 }
 
