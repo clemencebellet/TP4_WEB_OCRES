@@ -11,10 +11,9 @@ export default class Publication extends React.Component {
             <div class='publication' >
                 <div>
                     {text}
-                </div>
-                <div>
                     {picture}
                 </div>
+
                 <div>
                     <Button text={"J'aime"} onClick={handleLike} />
                     <Button text={"J'aime pas "} onClick={handleDislike} />

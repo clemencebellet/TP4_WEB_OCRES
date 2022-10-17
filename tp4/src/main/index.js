@@ -5,6 +5,8 @@ import Arthur from './images/arthur.jpg';
 import Claude from './images/claude.jpg';
 import Jeanne from './images/jeanne.jpg';
 import Bretagne from './images/bretagne.jpg';
+import Jean from './images/jean.jpg';
+import Facebook from './images/facebook.jpg';
 import Fete from './images/fete.jpg';
 import Brunch from './images/brunch.jpg';
 import './index.css';
@@ -24,7 +26,10 @@ export default class App extends React.Component {
                     photo: Brunch,
                     like: 0,
                     abonnes: 0,
+                    metier: 'UX designer',
+
                     dislike: 0
+
                 },
 
                 {
@@ -36,6 +41,7 @@ export default class App extends React.Component {
                     photo: Bretagne,
                     abonnes: 0,
                     like: 0,
+                    metier: 'Retraité',
                     dislike: 0
 
                 },
@@ -48,8 +54,26 @@ export default class App extends React.Component {
                     photo: Fete,
                     abonnes: 0,
                     like: 0,
+                    metier: 'Etudiant',
                     dislike: 0
                 },
+                {
+                    name: 'Jean',
+                    surname: 'Callarec',
+                    birthdate: '21/09/1973',
+                    picture: Jean,
+                    lastPublication: 'Ceci est la dernière publication de Jean',
+                    //photo: ,
+                    abonnes: 0,
+                    metier: 'Avocat',
+                    like: 0,
+                    dislike: 0
+                },
+            ],
+            logo: [
+                {
+                    img1: Facebook,
+                }
             ],
             selectedUser: 'Jeanne'
         }

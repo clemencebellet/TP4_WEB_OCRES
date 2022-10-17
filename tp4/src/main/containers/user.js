@@ -37,6 +37,9 @@ export default class User extends React.Component {
                         <div class='profileInfo'>
                             {`Date de naissance: ${user.birthdate}`}
                         </div>
+                        <div class='profileInfo'>
+                            {`Métier : ${user.metier}`}
+                        </div>
                     </div>
                     <Button text={'Change style'} onClick={this.changeStyle.bind(this)} style={{ alignSelf: 'flex-end' }} />
                 </div>
